@@ -46,7 +46,7 @@ public class BaseClass {
 	public void AddCandidatewithoutResume()
 	{
 		driver.findElement(By.xpath("//img[@src=\"/App_Themes/Default/images/logos/logo.png\"]")).click();
-		driver.findElement(By.xpath("//li[@class=\"new\"]//span[@data-bind=\"text: Title\"]")).click();
+		driver.findElement(By.xpath("//span[contains(text(),\"Add New\")]")).click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		//action.moveToElement(element).perform();
 		WebElement element = driver.findElement(By.xpath("//li[@class=\"candidate\"]//span[@title=\"Keyboard Shortcut: Shift+N, C\"]"));
@@ -124,7 +124,7 @@ public class BaseClass {
 	public void AddCompany()
 	{
 		driver.findElement(By.xpath("//img[@src=\"/App_Themes/Default/images/logos/logo.png\"]")).click();
-		driver.findElement(By.xpath("//span[contains(text(),\\\"Add New\\\")]")).click();
+		driver.findElement(By.xpath("//span[contains(text(),\"Add New\")]")).click();
 //		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		//action.moveToElement(element).perform();
 		driver.findElement(By.xpath("//li[@class=\"company\"]//span[@title=\"Keyboard Shortcut: Shift+N, M\"]")).click();
