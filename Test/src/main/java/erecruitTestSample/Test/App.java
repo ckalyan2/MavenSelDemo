@@ -17,8 +17,9 @@ public class App extends BaseClass {
 		//CC.FlightSearch();
 		//CC.StudentDiscount();
 		BC.AppLoin();
+		BC.AddCompany();
 		BC.AddCandidatewithoutResume();
 		//BC.AddCandidatewithResume();
-		//BC.CloseApp();
+		BC.CloseApp();
 	}
 }
