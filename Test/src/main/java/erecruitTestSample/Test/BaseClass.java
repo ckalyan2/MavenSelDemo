@@ -81,8 +81,8 @@ public class BaseClass {
 			}
 		}
 //Bootstrap implementation ends.
-		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtFName\"]")).sendKeys("KalSelfrstTest19");
-		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtLName\"]")).sendKeys("KalSellastTest19");
+		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtFName\"]")).sendKeys("KalSelfrstTest20");
+		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtLName\"]")).sendKeys("KalSellastTest20");
 		driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_Address_txtAddr1\"]")).sendKeys("Miyapur,HYDERABAD");
 		driver.findElement(By.xpath("//input[@id=\"AdSourceDropdown_ddladsource\"]")).click();
 		driver.findElement(By.xpath("//ul/li/a[text()=\"Broadlook\"]")).click();
@@ -130,7 +130,7 @@ public class BaseClass {
 		driver.findElement(By.xpath("//li[@class=\"company\"]//span[@title=\"Keyboard Shortcut: Shift+N, M\"]")).click();
 		WebElement ComFrame = driver.findElement(By.xpath("//iframe[contains(@id,'company_new')]"));
 		driver.switchTo().frame(ComFrame);
-		driver.findElement(By.xpath("//input[@id='ctl00_cphMain_ctlAddress_txtCompany']")).sendKeys("VamSelTestCompanyauto3");
+		driver.findElement(By.xpath("//input[@id='ctl00_cphMain_ctlAddress_txtCompany']")).sendKeys("MalSelTestCompanyauto1");
 		WebElement ComFolgrp = driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_ddlFolderGroups_Input\"]"));
 		ComFolgrp.sendKeys("Acct/Finance | Acct/ Finance | A/P - A/R");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -139,7 +139,7 @@ public class BaseClass {
 		WebElement ComSource1 = driver.findElement(By.xpath("//ul/li/a[text()='Broadlook']"));
 		ComSource1.click();
 		driver.findElement(By.xpath("//input[@value='Select a Communication Type' and @id='ctl00_cphMain_ucCommunicationMethods_rptEdit_ctl01_ddlType_Input']")).sendKeys("Home Phone");
-		driver.findElement(By.xpath("//input[@id='ctl00_cphMain_ucCommunicationMethods_rptEdit_ctl01_txtValue' and @class='riTextBox riEnabled txt']")).sendKeys("9845457547");
+		driver.findElement(By.xpath("//input[@id='ctl00_cphMain_ucCommunicationMethods_rptEdit_ctl01_txtValue' and @class='riTextBox riEnabled txt']")).sendKeys("9854752584");
 		/*		List<WebElement> lists1 = driver.findElements(By.xpath("//div[@id=\"ctl00_cphMain_ucCommunicationMethods_rptEdit_ctl02_ddlType_DropDown\"]//div[@class=\"rcbScroll rcbWidth\"]//ul[@class=\"rcbList\" and @style=\"list-style:none;margin:0;padding:0;zoom:1;\"]/li"));
 		System.out.println(lists1.size());
 		for (int i=0; i<=lists1.size(); i++)
