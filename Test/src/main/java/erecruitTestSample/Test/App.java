@@ -20,6 +20,6 @@ public class App extends BaseClass {
 		BC.AddCompany();
 		BC.AddCandidatewithoutResume();
 		//BC.AddCandidatewithResume();
-		BC.CloseApp();
+		//BC.CloseApp();
 	}
 }
