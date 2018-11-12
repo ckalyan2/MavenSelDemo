@@ -130,7 +130,7 @@ public class BaseClass {
 		driver.findElement(By.xpath("//li[@class=\"company\"]//span[@title=\"Keyboard Shortcut: Shift+N, M\"]")).click();
 		WebElement ComFrame = driver.findElement(By.xpath("//iframe[contains(@id,'company_new')]"));
 		driver.switchTo().frame(ComFrame);
-		driver.findElement(By.xpath("//input[@id='ctl00_cphMain_ctlAddress_txtCompany']")).sendKeys("MalSelTestCompanyauto1");
+		driver.findElement(By.xpath("//input[@id='ctl00_cphMain_ctlAddress_txtCompany']")).sendKeys("Mal1SelTestCompanyauto3");
 		WebElement ComFolgrp = driver.findElement(By.xpath("//input[@id=\"ctl00_cphMain_ddlFolderGroups_Input\"]"));
 		ComFolgrp.sendKeys("Acct/Finance | Acct/ Finance | A/P - A/R");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
